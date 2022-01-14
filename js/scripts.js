@@ -14,27 +14,37 @@ $(document).ready(function () {
     };
 
     if (food === 'burrito') {
-      total += 1
-    }else (food === 'salad') {
+      total += 1;
+    }else  {
       total += 2
     };
     if (tvShow === 'squidGames') {
       total += 1
-    }else (tvShow === 'loveIsland') {
+    }else { 
       total += 2
     };
     if (hobby === 'workingOut') {
       total += 1
-    }else (hobby === 'art') {
+    }else  {
       total += 2
     };
+  
 
-      if (total = 4) {
-        $("")
+      if (total = 5) {
+        $("c#").show();
+      }
+      else if (total = 6) {
+        $("javaScript").show();
+      }
+      else if (total = 7) {
+        $("ruby").show();
+      }
+      else {
+        $("none").show();
       }
 
+      event.preventDefault();
 
 
-    }
-  }
-}
+    });
+  });
