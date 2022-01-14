@@ -13,8 +13,16 @@ h1 {
 h2 {
   text-align: center;
 }
-.container {
+body {
   text-align: center;
+}
+p {
+  font-weight: bolder;
+}
+.button {
+  margin: 0;
+  position: absolute;
+  left: 43.5%;
 }
 #cSharp {
   display: none;

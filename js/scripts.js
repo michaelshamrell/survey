@@ -1,10 +1,13 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
+    const nameInput = $("input#name").val();
     const age = parseInt($("input#age").val());
     const food= $("select#food").val();
     const tvShow = $("select#tvShow").val();
     const hobby = $("select#hobby").val();
     let total = 0
+
+    $(".name").append(nameInput);
 
     if (age >= 21){
       total += 1
