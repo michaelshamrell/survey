@@ -31,15 +31,27 @@ $(document).ready(function () {
   
 
       if (total = 5) {
+        $("javaScript").hide();
+        $("none").hide();
+        $("ruby").hide();
         $("c#").show();
       }
       else if (total = 6) {
+        $("c#").hide();
+        $("none").hide();
+        $("ruby").hide();
         $("javaScript").show();
       }
       else if (total = 7) {
+        $("c#").hide();
+        $("none").hide();
+        $("javaScript").hide();
         $("ruby").show();
       }
       else {
+        $("c#").hide();
+        $("ruby").hide();
+        $("javaScript").hide();
         $("none").show();
       }
 
