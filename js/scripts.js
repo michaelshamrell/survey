@@ -30,14 +30,17 @@ $(document).ready(function() {
 
     if (total >=7) {
       $("#cSharp").show();
+      $(".roll").show();
       $("#javaScript").hide();
       $("#ruby").hide();
     }else if (total >=6) {
-      $("#ruby").show();
+      $(".roll").show();
+      $("#name").show();
       $("#javaScript").hide();
       $("#cSharp").hide();
     } else if (total >=4){
       $("#javaScript").show();
+      $(".roll").show();
       $("#cSharp").hide();
       $("#ruby").hide();
     }
