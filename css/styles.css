@@ -8,7 +8,13 @@ body {
   background-size: cover;
 }
 h1 {
-  float: center;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.container {
+  text-align: center;
 }
 #cSharp {
   display: none;
