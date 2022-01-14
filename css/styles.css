@@ -1,5 +1,14 @@
 .btn {
-  display:block
+  display:block;
+  background-color: black;
+  color: aliceblue;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmVzc2lvbmFsfGVufDB8fDB8fA%3D%3D&w=1000&q=80) no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  float: center;
 }
 #cSharp {
   display: none;
