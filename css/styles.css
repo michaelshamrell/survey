@@ -1,0 +1,15 @@
+.btn {
+  display:block
+}
+#cSharp {
+  display: none;
+}
+#javaScript {
+  display: none;
+}
+#ruby {
+  display: none;
+}
+#none {
+  display: none;
+}
