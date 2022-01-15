@@ -38,7 +38,7 @@ $(document).ready(function() {
       $("#ruby").hide();
     }else if (total >=6) {
       $(".roll").show();
-      $("#name").show();
+      $("#ruby").show();
       $("#javaScript").hide();
       $("#cSharp").hide();
     } else if (total >=4){
