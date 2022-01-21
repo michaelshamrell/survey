@@ -3,6 +3,7 @@
 Created by: *Michael Shamrell*
 
 This project showcases my ability to use branching to return a result, gather input from the user, use jQuery to show and hide the result after the form has been submitted, use descriptive variable names, and customize with css.
+Link to website: https://michaelshamrell.github.io/survey/
 
 # Technologies Used:
 Git, Github, HTML, CSS, markdown, javasScript, jQuery, and bootstrap. 
